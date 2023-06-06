@@ -36,7 +36,6 @@ public class Town implements Comparable {
     public int hashCode() {
         return Objects.hash(townName);
     }
-
     public int compareTo(Object town) {
         Town otherTown = (Town) town;
         return this.getTownName().compareTo(otherTown.getTownName());
